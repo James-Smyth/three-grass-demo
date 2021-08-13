@@ -1,0 +1,20 @@
+{
+  "name": "webgl-grass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w"
+  },
+  "author": " <James@Smyth.io>",
+  "license": "SEE LICENSE IN FILE",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "three": "^0.120.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup-plugin-string": "^3.0.0"
+  }
+}
